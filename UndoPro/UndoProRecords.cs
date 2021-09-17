@@ -50,7 +50,7 @@
 			string curScene = Application.loadedLevelName;
 			#endif
 			if (curScene != scene)
-				Destroy (gameObject);
+				DestroyImmediate (gameObject);
 		}
 
 		/// <summary>
